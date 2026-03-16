@@ -20,13 +20,13 @@ A [Claude Code skill](https://code.claude.com/docs/en/skills) that reviews Power
 Clone this repo into your Claude Code skills directory:
 
 ```bash
-git clone https://github.com/refine-ppt.git ~/.claude/skills/refine-ppt
+git clone https://github.com/erayalan/refine-ppt.git ~/.claude/skills/refine-ppt
 ```
 
 Or if you want it available only in a specific project:
 
 ```bash
-git clone https://github.com/refine-ppt.git .claude/skills/refine-ppt
+git clone https://github.com/erayalan/refine-ppt.git .claude/skills/refine-ppt
 ```
 
 ## Usage
