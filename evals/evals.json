@@ -1,0 +1,23 @@
+{
+  "skill_name": "refine-ppt",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Review my presentation at test_presentation.pptx and suggest ways to make the text more concise and professional. Add your suggestions as PowerPoint comments.",
+      "expected_output": "The original pptx is overwritten with modern PowerPoint comments anchored to specific text ranges on the relevant slides. Comments contain suggested replacement text.",
+      "files": ["test_presentation.pptx"]
+    },
+    {
+      "id": 2,
+      "prompt": "Look at slides 2 and 3 of test_presentation.pptx. The audience is C-suite executives. Suggest changes that add specific metrics and make the language more impactful. Add comments.",
+      "expected_output": "Comments are only added to slides 2 and 3. Suggestions are executive-friendly with concrete metrics. No comments on slide 1.",
+      "files": ["test_presentation.pptx"]
+    },
+    {
+      "id": 3,
+      "prompt": "I've replied to your comments in test_presentation_replies.pptx. Read my feedback and respond with revised suggestions.",
+      "expected_output": "Claude reads user replies, understands the feedback, and adds reply responses to the comment threads with revised suggestions.",
+      "files": ["test_presentation_replies.pptx"]
+    }
+  ]
+}
